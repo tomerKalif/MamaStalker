@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ServerAbstractions
 {
-    interface IServer
+    public interface IServer
     {
         public Task StartServer();
 
